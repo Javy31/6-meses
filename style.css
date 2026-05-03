@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: linear-gradient(#f8c8ff, #e699ff);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  z-index: 2;
+  background: #f5e6f7;
+  padding: 20px;
+  border-radius: 15px;
+  width: 400px;
+  margin: 100px auto;
+}
+
+/* CONTENIDO EN FILA */
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* TEXTO */
+.texto {
+  width: 60%;
+}
+
+/* IMAGEN */
+.imagen img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #c77dff;
+}
+
+/* FLORES */
+.flores span {
+  position: absolute;
+  top: -10px;
+  font-size: 22px;
+  animation: caer linear infinite;
+}
+
+@keyframes caer {
+  to {
+    transform: translateY(100vh);
+  }
+}
