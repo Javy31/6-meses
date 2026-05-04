@@ -11,7 +11,7 @@ body {
   background: #f5e6f7;
   padding: 20px;
   border-radius: 15px;
-  width: 400px;
+  width: 420px;
   margin: 100px auto;
 }
 
@@ -25,16 +25,29 @@ body {
 
 /* TEXTO */
 .texto {
-  width: 60%;
+  width: 55%;
 }
 
-/* IMAGEN */
+/* IMÁGENES (2 fotos) */
+.imagen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* FOTO 1 */
 .imagen img {
   width: 140px;
   height: 140px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px #c77dff;
+}
+
+/* FOTO 2 (LA DE ABAJO - CARA VISIBLE) */
+.foto2 {
+  object-fit: cover;
+  object-position: 50% 20%;
 }
 
 /* FLORES */
