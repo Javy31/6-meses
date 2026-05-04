@@ -11,7 +11,7 @@ body {
   background: #f5e6f7;
   padding: 20px;
   border-radius: 15px;
-  width: 420px;
+  width: 460px;
   margin: 100px auto;
 }
 
@@ -25,26 +25,26 @@ body {
 
 /* TEXTO */
 .texto {
-  width: 55%;
+  width: 50%;
 }
 
 /* IMÁGENES (2 fotos) */
 .imagen {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 /* FOTO 1 */
 .imagen img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 0 15px #c77dff;
 }
 
-/* FOTO 2 (LA DE ABAJO - CARA VISIBLE) */
+/* FOTO 2 (ENFOQUE EN LA CARA) */
 .foto2 {
   object-fit: cover;
   object-position: 50% 20%;
